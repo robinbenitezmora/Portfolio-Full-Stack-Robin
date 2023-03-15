@@ -1,5 +1,5 @@
 import React from 'react';
-import CV from '../assets/cv.pdf'; // Import pdf file from assets folder
+import CV from '../../assets/cv.pdf'; // Import pdf file from assets folder
 
 const Resume = () => {
   return (
