@@ -33,8 +33,10 @@
 }
 
 .portfolio__item-resume {
+  display: flex;
   margin-top: 1rem;
   font-size: 0.9rem;
+  gap: 1rem;
 }
 
 @media screen and (max-width: 1024px) {
