@@ -36,7 +36,7 @@ const Testimonial = () => {
   return (
     <section>
     <h5>Review from references</h5>
-    <h2>Testimoniala</h2>
+    <h2>Testimonial</h2>
 
     <div className='container testimonials__container'>
       {
@@ -45,9 +45,9 @@ const Testimonial = () => {
             <article key={id} className='testimonial__item'>
               <div className='testimonial__item-image'>
                 <img src={image} alt={name} />
-                <h3>{name}</h3>
               </div>
-              <p>{comment}</p>
+              <h4>{name}</h4>
+              <p className='testimonial__item-comment'>{comment}</p>
             </article>
           )
         })
