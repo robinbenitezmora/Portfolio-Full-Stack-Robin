@@ -5,6 +5,17 @@ import AVTR3 from '../../assets/avatar3.jpg'
 import AVTR4 from '../../assets/avatar4.jpg'
 import './testimonial.css'
 
+// import Swiper core and required modules
+import { Navigation, Pagination, Scrollbar, A11y } from 'swiper';
+
+import { Swiper, SwiperSlide } from 'swiper/react';
+
+// Import Swiper styles
+import 'swiper/css';
+import 'swiper/css/navigation';
+import 'swiper/css/pagination';
+import 'swiper/css/scrollbar';
+
 const reference = [
   {
     id: 1,
@@ -34,25 +45,35 @@ const reference = [
 
 const Testimonial = () => {
   return (
-    <section>
+    <section id='testimonials'>
     <h5>Review from references</h5>
-    <h2>Testimonial</h2>
+    <h2>Testimonials</h2>
 
-    <div className='container testimonials__container'>
+    <Swiper className='container testimonials__container'
+    // install Swiper modules
+      modules={[Navigation, Pagination, Scrollbar, A11y]}
+      spaceBetween={40}
+      slidesPerView={1}
+      navigation
+      pagination={{ clickable: true }}
+      scrollbar={{ draggable: true }}
+      onSwiper={(swiper) => console.log(swiper)}
+      onSlideChange={() => console.log('slide change')}
+    >
       {
         reference.map(({id, image, name, comment}) => {
           return (
-            <article key={id} className='testimonial__item'>
+            <SwiperSlide key={id} className='testimonial__item'>
               <div className='testimonial__item-image'>
                 <img src={image} alt={name} />
               </div>
               <h4>{name}</h4>
               <p className='testimonial__item-comment'>{comment}</p>
-            </article>
+            </SwiperSlide>
           )
         })
       }
-    </div>
+    </Swiper>
     </section>
   )
 }
