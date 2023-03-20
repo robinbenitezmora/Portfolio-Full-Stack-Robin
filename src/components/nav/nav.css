@@ -8,7 +8,7 @@ nav {
   z-index: 100;
   left: 50%;
   transform: translateX(-50%);
-  bottom: 2rem;
+  bottom: 1rem;
   gap: 1rem;
   border-radius: 3rem;
   backdrop-filter: blur(15px);
