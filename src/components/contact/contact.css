@@ -5,6 +5,14 @@
   gap: 15%;
 }
 
+.contact__title {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 0.5rem;
+  margin-bottom: 2.5rem;
+}
+
 .contact__options {
   display: flex;
   flex-direction: column;
@@ -62,7 +70,7 @@ textarea {
 @media screen and (max-width: 600px) {
   .container.contact__container {
     grid-template-columns: 1fr;
-    width: 100%;
+    width: 80%;
     gap: 0;
   }
 
@@ -71,9 +79,6 @@ textarea {
   }
 
   .contact__title {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    gap: 0.5rem;
+    margin-bottom: 1.5rem;
   }
 }

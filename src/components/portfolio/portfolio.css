@@ -5,6 +5,14 @@
   margin-top: 2rem;
 }
 
+.portfolio__title {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 0.5rem;
+  margin-bottom: 2.5rem;
+}
+
 .portfolio__item {
   display: flex;
   flex-direction: column;
@@ -53,9 +61,6 @@
   }
 
   .portfolio__title {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    gap: 0.5rem;
+    margin-bottom: 1.5rem;
   }
 }

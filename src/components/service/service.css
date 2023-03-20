@@ -4,6 +4,14 @@
   gap: 2rem;
 }
 
+.service__title {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 0.5rem;
+  margin-bottom: 2.5rem;
+}
+
 .service {
   height: auto;
   background: var(--color-bg-variant);
@@ -65,10 +73,7 @@
   }
 
   .service__title {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    gap: 0.5rem;
+    margin-bottom: 1.5rem;
   }
 
   .service {
