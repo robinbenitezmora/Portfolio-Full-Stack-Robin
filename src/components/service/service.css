@@ -58,10 +58,17 @@
   }
 }
 
-@media screen and (max-width: 768px) {
+@media screen and (max-width: 600px) {
   .service__container {
     grid-template-columns: 1fr;
     gap: 1rem;
+  }
+
+  .service__title {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 0.5rem;
   }
 
   .service {

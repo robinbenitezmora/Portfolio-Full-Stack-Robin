@@ -46,8 +46,10 @@ const reference = [
 const Testimonial = () => {
   return (
     <section id='testimonials'>
-    <h5>Review from references</h5>
-    <h2>Testimonials</h2>
+    <div className='testimonial__title'>
+      <h5>Review from references</h5>
+      <h2>Testimonials</h2>
+    </div>
 
     <Swiper className='container testimonials__container'
     // install Swiper modules

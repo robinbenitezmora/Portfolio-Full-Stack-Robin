@@ -47,12 +47,19 @@
   }
 }
 
-@media screen and (max-width: 768px) {
+@media screen and (max-width: 600px) {
   .container.testimonials__container {
     width: var(--container-width-sm);
   }
 
   .testimonial__item-comment {
     width: var(--container-width-sm);
+  }
+
+  .testimonial__title {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 0.5rem;
   }
 }

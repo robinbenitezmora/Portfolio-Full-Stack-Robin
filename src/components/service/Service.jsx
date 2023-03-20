@@ -5,8 +5,10 @@ import './service.css'
 const Service = () => {
   return (
     <section id='service'>
-      <h5>What I offer you</h5>
-      <h2>My Services</h2>
+      <div className='service__title'>
+        <h5>What I offer you</h5>
+        <h2>My Services</h2>
+      </div>
 
       <div className='container service__container'>
         <article className='service'>
