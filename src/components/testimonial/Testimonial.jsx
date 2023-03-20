@@ -1,8 +1,8 @@
 import React from 'react'
-import AVTR1 from '../../assets/avatar1.jpg'
-import AVTR2 from '../../assets/avatar2.jpg'
-import AVTR3 from '../../assets/avatar3.jpg'
-import AVTR4 from '../../assets/avatar4.jpg'
+import AVTR1 from '../../assets/angel.jpg'
+import AVTR2 from '../../assets/diego.jpg'
+import AVTR3 from '../../assets/carlos.jpg'
+import AVTR4 from '../../assets/peter.jpg'
 import './testimonial.css'
 
 // import Swiper core and required modules
@@ -21,24 +21,24 @@ const reference = [
     id: 1,
     image: AVTR1,
     name: 'Angel Uray',
-    comment: 'Lorem, ipsum dolor sit amet consectetur adipisicing elit. Veniam, possimus harum praesentium molestias nemo beatae quisquam, qui, atque incidunt alias debitis explicabo distinctio dolorem iste sapiente repudiandae. Aperiam, quaerat ex?'
+    comment: 'Robin is the most excellent Software developer I have ever met, he proved his commitment, determination, and willingness to contribute to teamwork when we worked together. He is always challenging himself over and over again. His attention to detail, good communication, research skills, and technical knowledge was evident, and the key to successfully finishing all the projects with our team in record time...'
   },
   {
     id: 2,
     image: AVTR2,
-    name: 'Angel Uray',
-    comment: 'Lorem, ipsum dolor sit amet consectetur adipisicing elit. Veniam, possimus harum praesentium molestias nemo beatae quisquam, qui, atque incidunt alias debitis explicabo distinctio dolorem iste sapiente repudiandae. Aperiam, quaerat ex?'
+    name: 'Diego Hernandez',
+    comment: 'I can certify that Robin work has the following capabilities: -Continuously learn and stay up-to-date with the latest technologies and industry trends. -Write clean, efficient, and well-documented code. -Collaborate effectively with cross-functional teams, including designers, product managers, and stakeholders. -Be an excellent problem solver and have a strong attention to detail.'
   },
   {
     id: 3,
     image: AVTR3,
-    name: 'Angel Uray',
-    comment: 'Lorem, ipsum dolor sit amet consectetur adipisicing elit. Veniam, possimus harum praesentium molestias nemo beatae quisquam, qui, atque incidunt alias debitis explicabo distinctio dolorem iste sapiente repudiandae. Aperiam, quaerat ex?'
+    name: 'Carlos Molina',
+    comment: 'Robin is an extremely kind, collaborative and hard-working person. In addition, his technical level is surpassed day by day due to his strong will to learn, his great dedication and his innate talent. I had the privilege of being his programming partner for a whole week and teammate for a long time. I am sure that he will be a great team member during his professional life as a web developer !.'
   },
   {
     id: 4,
     image: AVTR4,
-    name: 'Angel Uray',
+    name: 'Peter Beshara',
     comment: 'Lorem, ipsum dolor sit amet consectetur adipisicing elit. Veniam, possimus harum praesentium molestias nemo beatae quisquam, qui, atque incidunt alias debitis explicabo distinctio dolorem iste sapiente repudiandae. Aperiam, quaerat ex?'
   }
 ]
