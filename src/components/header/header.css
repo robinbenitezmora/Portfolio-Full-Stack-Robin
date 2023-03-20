@@ -35,15 +35,18 @@ header {
 }
 
 .me {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 40%;
+  height: 67%;
+  margin-top: 2.5rem;
   background: linear-gradient(var(--color-primary), transparent);
-  width: 22rem;
-  height: 32rem;
   position: absolute;
-  left: calc(50% - 11rem);
-  margin-top: 3rem;
+  left: calc(50% - 13rem);
   border-radius: 10rem 10rem 0 0;
   overflow: hidden;
-  padding: 4rem 1.5rem 1.5rem 1.5rem;
+  padding: 0.5rem;
 }
 
 .scroll__down {
@@ -56,10 +59,24 @@ header {
   color: var(--color-primary);
 }
 
-@media screen and (max-width: 600px) {
+@media screen and (max-width: 1024px) {
   .me {
-    height: 100vh;
+    justify-items: center;
+    width: auto;
+    height: 18rem;
+    padding: 0.5rem;
+    left: calc(50% - 7rem);
   }
+}
+
+@media screen and (max-width: 600px) {
+  /* .me {
+    display: flex;
+    height: 18rem;
+    width: 15rem;
+    padding: 0;
+    margin-left: 3.5rem;
+  } */
 
   .header__socials,
   .scroll__down {

@@ -1,7 +1,7 @@
 import React from 'react'
 import HeaderSocial from './HeaderSocial'
 import Resume from './Resume'
-import ME from '../../assets/me.png'
+import ME from '../../assets/robin.jpg'
 import './header.css'
 
 
@@ -15,7 +15,7 @@ const Header = () => {
         <Resume />
         <HeaderSocial />
 
-        <div>
+        <div className='image'>
           <img src={ME} alt='me' className='me' />
         </div>
 
