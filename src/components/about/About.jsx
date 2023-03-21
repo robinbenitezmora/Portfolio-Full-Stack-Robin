@@ -37,7 +37,7 @@ const About = () => {
               <small>50+ Satisfied</small>
             </article>
           </div>
-          <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Modi iste id tempora in ex aspernatur sed asperiores. Dolorum aliquid autem quisquam labore, laudantium consequuntur similique amet consectetur debitis neque. Esse.</p>
+          <p>Hello I’m a software developer! <br /> Bring your ideas to life with the magic of software.  Look at my experience and you decide...I can build something great for you! Do not hesitate to contact me, I am the solution to your needs!</p>
           <a href="#contact" className='btn btn-primary'>Let's to Talk</a>
         </div>
       </div>

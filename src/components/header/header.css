@@ -63,7 +63,7 @@ header {
   .me {
     justify-items: center;
     width: auto;
-    height: 18rem;
+    height: 15rem;
     padding: 0.5rem;
     left: calc(50% - 7rem);
   }
