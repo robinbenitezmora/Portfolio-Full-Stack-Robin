@@ -1,9 +1,9 @@
 import React from 'react'
-import IMG1 from '../../assets/portfolio1.jpg'
-import IMG2 from '../../assets/portfolio2.jpg'
-import IMG3 from '../../assets/portfolio3.jpg'
-import IMG4 from '../../assets/portfolio4.jpg'
-import IMG5 from '../../assets/portfolio5.png'
+import IMG1 from '../../assets/my_budget_app.jpg'
+import IMG2 from '../../assets/crypto_coins.jpg'
+import IMG3 from '../../assets/tv_series.jpg'
+import IMG4 from '../../assets/weather.jpg'
+import IMG5 from '../../assets/math_magician.jpg'
 import IMG6 from '../../assets/portfolio6.jpg'
 import './portfolio.css'
 
@@ -11,43 +11,43 @@ const data = [
   {
     id: 1,
     image: IMG1,
-    title: 'Portfolio1 Title',
-    github: 'https://github.com',
+    title: 'My Budget App',
+    github: 'https://github.com/robinbenitezmora/My-Budget-Manager',
     live: 'https://dribbble.com/Allien_pixels'
   },
   {
     id: 2,
     image: IMG2,
-    title: 'Portfolio2 Title',
-    github: 'https://github.com',
+    title: 'Crypto Coins',
+    github: 'https://github.com/robinbenitezmora/crypto-coins',
     live: 'https://dribbble.com/Allien_pixels'
   },
   {
     id: 3,
     image: IMG3,
-    title: 'Portfolio3 Title',
-    github: 'https://github.com',
+    title: 'TV Shows',
+    github: 'https://github.com/robinbenitezmora/TV-Shows',
     live: 'https://dribbble.com/Allien_pixels'
   },
   {
     id: 4,
     image: IMG4,
-    title: 'Portfolio4 Title',
-    github: 'https://github.com',
+    title: 'Wheater App',
+    github: 'https://github.com/robinbenitezmora/capstone3',
     live: 'https://dribbble.com/Allien_pixels'
   },
   {
     id: 5,
     image: IMG5,
-    title: 'Portfolio5 Title',
-    github: 'https://github.com',
+    title: 'Calculator',
+    github: 'https://github.com/robinbenitezmora/math-magician',
     live: 'https://dribbble.com/Allien_pixels'
   },
   {
     id: 6,
     image: IMG6,
-    title: 'Portfolio6 Title',
-    github: 'https://github.com',
+    title: 'Market Place',
+    github: 'https://github.com/robinbenitezmora/Market-Place',
     live: 'https://dribbble.com/Allien_pixels'
   }
 ]
