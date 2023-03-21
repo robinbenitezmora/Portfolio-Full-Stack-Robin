@@ -39,7 +39,7 @@ const reference = [
     id: 4,
     image: AVTR4,
     name: 'Peter Beshara',
-    comment: 'Lorem, ipsum dolor sit amet consectetur adipisicing elit. Veniam, possimus harum praesentium molestias nemo beatae quisquam, qui, atque incidunt alias debitis explicabo distinctio dolorem iste sapiente repudiandae. Aperiam, quaerat ex?'
+    comment: 'As Robin colleague, I have had the pleasure of witnessing his dedication and passion for programming firsthand. Despite his numerous family responsibilities, Robin never fails to put in the time and effort required to learn and improve his skills. Robin has a huge capacity for taking on challenges. He approaches his work with a level of professionalism and attention to detail that is truly impressive. I have no doubt that Robin would be an asset to any team or organization.'
   }
 ]
 
