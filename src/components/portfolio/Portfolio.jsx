@@ -27,14 +27,14 @@ const data = [
     image: IMG3,
     title: 'TV Shows',
     github: 'https://github.com/robinbenitezmora/TV-Shows',
-    live: 'https://dribbble.com/Allien_pixels'
+    live: 'https://gregarious-melba-45d9be.netlify.app/'
   },
   {
     id: 4,
     image: IMG4,
     title: 'Wheater App',
     github: 'https://github.com/robinbenitezmora/capstone3',
-    live: 'https://dribbble.com/Allien_pixels'
+    live: 'https://moonlit-queijadas-da638a.netlify.app/'
   },
   {
     id: 5,
