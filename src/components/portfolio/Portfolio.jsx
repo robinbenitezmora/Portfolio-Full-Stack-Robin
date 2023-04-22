@@ -13,14 +13,14 @@ const data = [
     image: IMG1,
     title: 'My Budget App',
     github: 'https://github.com/robinbenitezmora/My-Budget-Manager',
-    live: 'https://dribbble.com/Allien_pixels'
+    live: 'https://my-budget-manager-c423.onrender.com'
   },
   {
     id: 2,
     image: IMG2,
     title: 'Crypto Coins',
     github: 'https://github.com/robinbenitezmora/crypto-coins',
-    live: 'https://dribbble.com/Allien_pixels'
+    live: 'https://my-budget-manager-c423.onrender.com'
   },
   {
     id: 3,
