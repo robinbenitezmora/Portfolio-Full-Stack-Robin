@@ -20,7 +20,7 @@ const data = [
     image: IMG2,
     title: 'Crypto Coins',
     github: 'https://github.com/robinbenitezmora/crypto-coins',
-    live: 'https://my-budget-manager-c423.onrender.com'
+    live: 'https://gregarious-pasca-272a68.netlify.app/'
   },
   {
     id: 3,
