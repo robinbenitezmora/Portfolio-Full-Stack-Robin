@@ -4,7 +4,7 @@ import IMG2 from '../../assets/crypto_coins.jpg'
 import IMG3 from '../../assets/tv_series.jpg'
 import IMG4 from '../../assets/weather.jpg'
 import IMG5 from '../../assets/math_magician.jpg'
-import IMG6 from '../../assets/portfolio6.jpg'
+import IMG6 from '../../assets/barbershop.jpg'
 import './portfolio.css'
 
 const data = [
@@ -41,14 +41,14 @@ const data = [
     image: IMG5,
     title: 'Calculator',
     github: 'https://github.com/robinbenitezmora/math-magician',
-    live: 'https://dribbble.com/Allien_pixels'
+    live: 'https://63233fbe2d9fc6644776cddc--serene-rolypoly-6c9e95.netlify.app/'
   },
   {
     id: 6,
     image: IMG6,
-    title: 'Market Place',
-    github: 'https://github.com/robinbenitezmora/Market-Place',
-    live: 'https://dribbble.com/Allien_pixels'
+    title: 'Alura Barbershop',
+    github: 'https://github.com/robinbenitezmora/Barbershop',
+    live: 'https://dazzling-gelato-a01006.netlify.app/'
   }
 ]
 
