@@ -3,7 +3,7 @@ import IMG1 from '../../assets/my_budget_app.jpg'
 import IMG2 from '../../assets/crypto_coins.jpg'
 import IMG3 from '../../assets/tv_series.jpg'
 import IMG4 from '../../assets/weather.jpg'
-import IMG5 from '../../assets/math_magician.jpg'
+import IMG5 from '../../assets/eCommerce.jpg'
 import IMG6 from '../../assets/barbershop.jpg'
 import './portfolio.css'
 
@@ -39,9 +39,9 @@ const data = [
   {
     id: 5,
     image: IMG5,
-    title: 'Calculator',
-    github: 'https://github.com/robinbenitezmora/math-magician',
-    live: 'https://63233fbe2d9fc6644776cddc--serene-rolypoly-6c9e95.netlify.app/'
+    title: 'Schollar Dresses',
+    github: 'https://github.com/robinbenitezmora/School-Dress-eCommerce',
+    live: 'https://strong-jelly-2ca995.netlify.app/'
   },
   {
     id: 6,
