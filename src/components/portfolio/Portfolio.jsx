@@ -48,7 +48,7 @@ const data = [
     image: IMG6,
     title: 'Alura Barbershop',
     github: 'https://github.com/robinbenitezmora/Barbershop',
-    live: 'https://dazzling-gelato-a01006.netlify.app/'
+    live: 'https://dazzling-gelato-a01006.netlify.app'
   }
 ]
 
